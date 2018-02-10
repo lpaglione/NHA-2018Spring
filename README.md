@@ -30,3 +30,8 @@ This repository includes my code for the NHA JS.01 class.
 * Create a pull request (click on the button) - Add a description - and send it.
 * Look at the pull request on the web github.com
 
+###Challenge 3: Markdown, HTML & CSS basics
+
+* I've used several markdown formatting features in this file.
+* indentation is important
+* Comments are done differently in every language!
