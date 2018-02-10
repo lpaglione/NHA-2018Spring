@@ -2,9 +2,9 @@
 
 This repository includes my code for the NHA JS.01 class.
 
-##WEEK 1 notes
+## WEEK 1 notes
 
-###Challenge 1: Structuring my files
+### Challenge 1: Structuring my files
 
 * My HTML, CSS and JavaScript code need to be in different files.
 * I need to include my CSS file in my HTML one in the `<head>` element
@@ -19,7 +19,7 @@ This repository includes my code for the NHA JS.01 class.
 <script type="text/javascript" src="scripts/script.js"></script>
 ```
 
-###Challenge 2: Github repository - my first pull request
+### Challenge 2: Github repository - my first pull request
 
 * Create a new branch from Github Desktop
 * Updated my README file with some notes from challenge 1, and save/commit it with a good commit note.
@@ -30,8 +30,15 @@ This repository includes my code for the NHA JS.01 class.
 * Create a pull request (click on the button) - Add a description - and send it.
 * Look at the pull request on the web github.com
 
-###Challenge 3: Markdown, HTML & CSS basics
+### Challenge 3: Markdown, HTML & CSS basics
 
 * I've used several markdown formatting features in this file.
 * indentation is important
 * Comments are done differently in every language!
+
+## Week 2 notes
+
+### Challenge 4: Reading documentation
+
+* Example code is helpful to get some ideas, and to play with the code to see what it does.
+* Reference documentation is useful for learning everything that a function or feature can do.
