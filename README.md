@@ -42,3 +42,11 @@ This repository includes my code for the NHA JS.01 class.
 
 * Example code is helpful to get some ideas, and to play with the code to see what it does.
 * Reference documentation is useful for learning everything that a function or feature can do.
+
+### Challenge 5: Fonts, colors and other fancy stuff
+
+* Added a bunch of fancy things to my .css file.
+* Some useful URLs
+    * [CSS Reference](https://www.w3schools.com/cssref/default.asp)
+    * [Google fonts](https://fonts.google.com/)
+    * [Paletton color picker](http://paletton.com/)
