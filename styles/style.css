@@ -54,3 +54,38 @@ input.defaultstyle {
 input[type="text"] {
   width: 350px;
 }
+
+table, th, td {
+  border: 2px solid #5B3B14;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr#selected:nth-child(even) {
+  background-color: #EFEFEF;
+}
+
+tr#selected:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+tr#header {
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+table#hw7table, table#hw7table th, table#hw7table td {
+  border: 1px solid black;
+}
+
+tr#lastrow {
+  background-color: yellow;
+}
+
+table#hw7table {
+  color: black;
+}
