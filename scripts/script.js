@@ -25,5 +25,16 @@ let myNumString = "7";
 $(".compute").click( () => {
   //myInt + myInt = 14
   console.log(`myInt + myInt = ${myInt + myInt}`);
-  //
+  //myInt + myString = "7the number 7"
+  //myInt + myNumString =
+  //myNumString + myInt =
+  //myInt + myNumString + myString =
+  //myInt + myInt + myString =
+  //myString + myInt + myInt =
+  //myInt - myString =
+  //myInt - myNumString =
+  //myString - myNumString =
+  //myInt == myNumString =
+  //myInt === myNumString = 
+
 })
