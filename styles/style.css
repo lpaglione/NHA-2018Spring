@@ -43,3 +43,14 @@ a {
 ul {
   list-style: square;
 }
+
+input.defaultstyle {
+  color: #F3C891;
+  background-color: #af8a59;
+  border: 2px solid #F3E991;
+  font-family: 'BioRhyme Expanded', Helvetica, sans-serif;
+}
+
+input[type="text"] {
+  width: 350px;
+}
