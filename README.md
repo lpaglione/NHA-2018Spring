@@ -26,14 +26,14 @@ This repository includes my code for the NHA JS.01 class.
 * Test my code. (fixed it because it didn't work and I forgot to put something into my HTML file!)
 * Added some more notes here about the steps that I took for challenge 2.
 * committed my code in Github desktop (with a good commit note!)
-* Publish the branch. 
+* Publish the branch.
 * Create a pull request (click on the button) - Add a description - and send it.
 * Look at the pull request on the web github.com
 
 ### Challenge 3: Markdown, HTML & CSS basics
 
 * I've used several markdown formatting features in this file.
-* indentation is important
+* Indentation is important
 * Comments are done differently in every language!
 
 ### Challenge 4: Reading documentation
@@ -50,3 +50,9 @@ This repository includes my code for the NHA JS.01 class.
     * [CSS Reference](https://www.w3schools.com/cssref/default.asp)
     * [Google fonts](https://fonts.google.com/)
     * [Paletton color picker](http://paletton.com/)
+
+### Challenge 6: Build and style a form
+
+* Used several different input types.
+* Helpful links
+    * [Some Inputs to Choose From](https://www.w3schools.com/tags/att_input_type.asp)
