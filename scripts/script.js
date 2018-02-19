@@ -60,8 +60,20 @@ $(".compute").click( () => {
   console.log(`myInt === myNumString is ${myInt === myNumString}`);
 })
 
+<<<<<<< HEAD
 //Challenge 10
 $("#display").click( () => {
   let name = $("input#name").val();
   $("p.challenge10").append(`<br> Hi there ${name}!`);
 })
+=======
+$('button.submit').click( () => {
+  console.log("yeah!");
+
+  // Get inputs
+  let food = $('input[name="fav_food"').val();
+
+  $("p.newStuff").append(`yes! I love ${food}`);
+});
+
+>>>>>>> 8910967f4ed329361491a2ce9b64e9249943f486
