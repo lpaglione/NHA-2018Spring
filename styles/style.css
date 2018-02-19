@@ -55,37 +55,52 @@ input[type="text"] {
   width: 350px;
 }
 
-table, th, td {
-  border: 2px solid #5B3B14;
-}
+/* Stying the tables */
 
+/* for all tables */
 table {
   border-collapse: collapse;
   width: 100%;
 }
 
-tr#selected:nth-child(even) {
+/* For the table that matches the rest of the stylesheet */
+table.styling, th, td {
+  border: 2px solid #5B3B14;
+}
+
+/* For the table for HW7 */
+/* THE HEADER */
+table.hw7table thead td {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+/* THE FULL TABLE */
+table.hw7table, table.hw7table td {
+  /* border */
+  border: 1px solid black;
+  /* font */
+  color: black;
+}
+
+/* THE BODY */
+/* grey stripes */
+table.hw7table tbody tr:nth-child(even) {
   background-color: #EFEFEF;
 }
 
-tr#selected:nth-child(odd) {
+/* white stripes */
+table.hw7table tbody tr:nth-child(odd) {
   background-color: #FFFFFF;
 }
 
-tr#header {
-  background-color: black;
-  color: white;
-  text-align: left;
+/* hover */
+table.hw7table tbody tr:hover {
+  background-color: #ddd;
 }
 
-table#hw7table, table#hw7table th, table#hw7table td {
-  border: 1px solid black;
-}
-
-tr#lastrow {
+/* THE FOOTER */
+table.hw7table tfoot tr {
   background-color: yellow;
-}
-
-table#hw7table {
-  color: black;
 }
