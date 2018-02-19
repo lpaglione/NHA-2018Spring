@@ -7,9 +7,109 @@
 <--------------------------------------- */
 
 /* General Styling */
+/* My palette: http://paletton.com/#uid=5190u0kllllc+uyhapXpwgJtGc8; */
 body {
-  font-family: Helvetica, sans-serif;
-  color: #4C6700;
+  /* Font styling */
+  font-family: 'BioRhyme Expanded', Helvetica, sans-serif;
+  color: #F3C891;
   margin: 0px 15px 15px 15px;
   font-size: 1em;
+
+  margin: 10px 25px 15px 35px;
+
+  /* Background */
+  background: #AA7839;
+}
+
+p {
+  padding: 0px 0px 15px 0px;
+}
+
+h1 {
+  text-decoration: overline;
+  text-shadow: 2px 2px #613907;
+  color: #F3E991;
+}
+img {
+  /*center/500px;*/
+  max-width: 500px;
+  border: 15px solid #AA8C39;
+  filter: drop-shadow(10px 10px 15px #613907);
+}
+
+a {
+}
+
+ul {
+  list-style: square;
+}
+
+input.defaultstyle {
+  color: #F3C891;
+  background-color: #af8a59;
+  border: 2px solid #F3E991;
+  font-family: 'BioRhyme Expanded', Helvetica, sans-serif;
+}
+
+input[type="text"] {
+  width: 350px;
+}
+
+/* Stying the tables */
+
+/* for all tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* For the table that matches the rest of the stylesheet */
+table.styling, th, td {
+  border: 2px solid #5B3B14;
+}
+
+/* For the table for HW7 */
+/* THE HEADER */
+table.hw7table thead td {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+}
+
+/* THE FULL TABLE */
+table.hw7table td {
+  /* border */
+  border: 1px solid black;
+  /* font */
+  color: black;
+}
+
+/* THE BODY */
+/* grey stripes */
+table.hw7table tbody tr:nth-child(even) {
+  background-color: #EFEFEF;
+}
+
+/* white stripes */
+table.hw7table tbody tr:nth-child(odd) {
+  background-color: #FFFFFF;
+}
+
+/* hover */
+table.hw7table tbody tr:hover {
+  background-color: #ddd;
+}
+
+/* THE FOOTER */
+table.hw7table tfoot tr {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+button {
+  color: #F3C891;
+  background-color: #af8a59;
+  border: 2px solid #5B3B14;
+  font-family: 'BioRhyme Expanded', Helvetica, sans-serif;
+  border-radius: 10px;
 }

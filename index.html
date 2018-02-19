@@ -7,14 +7,142 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Laura's Project - Nano Hacker Academy JS01</title>
+  <title>Laura's (and Jordan's) Project - Nano Hacker Academy JS01</title>
 
   <!-- Link to my stylesheet -->
   <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
+  <link rel="icon" href="https://us.v-cdn.net/6027503/uploads/expressions/face-icon-small-cool.gif" type="image/gif">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   <!-- This is where my HTML code goes -->
-  <p>It's a good idea to put in some text so that I know that it works!</p>
+  <H1>My page</H1>
+  <p>Here we have tried a few things:</p>
+
+  <ul>
+      <li>Added an image with a filter and border</li>
+      <li>Added and styled some bullets</li>
+      <li>Styled my text</li>
+  </ul>
+
+
+  <a href="https://commons.wikimedia.org/wiki/File:Sunset_from_Embalse_de_Chira,_Gran_Canaria.jpg"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Sunset_from_Embalse_de_Chira%2C_Gran_Canaria.jpg"></a>
+
+  <br>
+  <br>
+
+  <p>This is a form:</p> <!-- Challenge 6 -->
+
+  What is your favorite food?<br>
+  <input type="text" placeholder="Pizza" name="fav_food" class="defaultstyle"><br>
+  <br>
+  Which of these sports do you play?<br>
+  <input type="checkbox" name="sport" value="Soccer">Soccer<br>
+  <input type="checkbox" name="sport" value="Football">Football<br>
+  <input type="checkbox" name="sport" value="Baseball">Baseball<br>
+  <input type="checkbox" name="sport" value="Basketball">Basketball<br>
+  <input type="checkbox" name="sport" value="Hockey">Hockey<br>
+  <br>
+  What is your favorite color?<br>
+  <input type="color" name="color" class="defaultstyle"><br>
+  <br>
+  What grade are you in?<br>
+  <input type="number" min="1" max="12" class="defaultstyle" name="grade"><br>
+  <br>
+  Question<br>
+  <input type="text" placeholder="Write whatever you want here" class="defaultstyle" name="misc"><br>
+  <br>
+  <button class="submit">Submit</button><br>
+  <br>
+
+  <table class="styling">
+    <thead>
+      <tr>
+        <th>Category</th><th>Response</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Favorite Food</td><td>Pizza</td>
+      </tr>
+      <tr>
+        <td>Sports Played</td><td>Soccer, Football</td>
+      </tr>
+      <tr>
+        <td>Favorite Color</td><td id="color" style="background-color: #FF00FF;"></td>
+      </tr>
+      <tr>
+        <td>Grade</td><td>9</td>
+      </tr>
+      <tr>
+        <td>Miscellaneous</td><td>Something random</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+
+  <p class="newStuff"></p>
+
+  <h2>Table for challenge 7</h2>  <!-- Challenge 7 -->
+  <table class="hw7table">
+    <caption>Tonight's Homework</caption>
+    <thead>
+      <tr>
+        <td>Subject</td><td>Time</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Math</td><td>20 min</td>
+      </tr>
+      <tr>
+        <td>English</td><td>40 min</td>
+      </tr>
+      <tr>
+        <td>Science</td><td>20 min</td>
+      </tr>
+      <tr>
+        <td>History</td><td>No homework!!</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>TOTAL TIME:</td><td>1 hour 20 min</td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <br>
+
+  <!-- Challenge 8 -->
+  <img src="https://static.boredpanda.com/blog/wp-content/uuuploads/cute-baby-animals/cute-baby-animals-10.jpg" class="img">
+  <br>
+  <button class="hide">Hide the piggy</button>&nbsp;<button class="show">Bring the piggy back</button>
+  <br>
+  <br>
+  <!-- Challenge 9 -->
+  <button class="compute">Compute values for challenge 9</button>
+  <br>
+  <br>
+  <!-- Challenge 10 -->
+  What is your name?
+  <br>
+  <input type="text" id="name" class="defaultstyle">
+  <br>
+  <br>
+  <button id="display">Display in p tag and table</button>
+  <p class="challenge10"></p>
+  <table class="challenge10">
+    <thead>
+      <tr>
+        <th>Input Label</th><th>Value Typed In</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
 
   <!-- link to my javascript code -->
   <script type="text/javascript" src="scripts/script.js"></script>
