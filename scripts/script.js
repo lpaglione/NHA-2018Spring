@@ -59,3 +59,13 @@ $(".compute").click( () => {
   //myInt === myNumString = false
   console.log(`myInt === myNumString is ${myInt === myNumString}`);
 })
+
+$('button.submit').click( () => {
+  console.log("yeah!");
+
+  // Get inputs
+  let food = $('input[name="fav_food"').val();
+
+  $("p.newStuff").append(`yes! I love ${food}`);
+});
+
