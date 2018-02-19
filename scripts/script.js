@@ -59,3 +59,9 @@ $(".compute").click( () => {
   //myInt === myNumString = false
   console.log(`myInt === myNumString is ${myInt === myNumString}`);
 })
+
+//Challenge 10
+$("#display").click( () => {
+  let name = $("input#name").val();
+  $("p.challenge10").append(`<br> Hi there ${name}!`);
+})
