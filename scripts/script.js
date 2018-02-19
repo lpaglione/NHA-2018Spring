@@ -65,4 +65,7 @@ $(".compute").click( () => {
 $("#display").click( () => {
   let name = $("input#name").val();
   $("p.challenge10").append(`<br> Hi there ${name}!`);
+
+  //Part 2
+  $("table.challenge10 tbody").append(`<tr><td>Name</td><td>${name}</td></tr>`);
 })
