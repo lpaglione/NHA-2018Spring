@@ -25,16 +25,37 @@ let myNumString = "7";
 $(".compute").click( () => {
   //myInt + myInt = 14
   console.log(`myInt + myInt = ${myInt + myInt}`);
-  //myInt + myString = "7the number 7"
-  //myInt + myNumString =
-  //myNumString + myInt =
-  //myInt + myNumString + myString =
-  //myInt + myInt + myString =
-  //myString + myInt + myInt =
-  //myInt - myString =
-  //myInt - myNumString =
-  //myString - myNumString =
-  //myInt == myNumString =
-  //myInt === myNumString = 
 
+  //myInt + myString = "7the number 7"
+  console.log(`myInt + myString = ${myInt + myString}`);
+
+  //myInt + myNumString = "77"
+  console.log(`myInt + myNumString = ${myInt + myNumString}`);
+
+  //myNumString + myInt = "77"
+  console.log(`myNumString + myInt = ${myNumString + myInt}`);
+
+  //myInt + myNumString + myString = "77the number 7"
+  console.log(`myInt + myNumString + myString = ${myInt + myNumString + myString}`);
+
+  //myInt + myInt + myString = "14the number 7"
+  console.log(`myInt + myInt + myString = ${myInt + myInt + myString}`);
+
+  //myString + myInt + myInt = "the number 777"
+  console.log(`myString + myInt + myInt = ${myString + myInt + myInt}`);
+
+  //myInt - myString = NaN (Not a Number)
+  console.log(`myInt - myString = ${myInt - myString}`);
+
+  //myInt - myNumString = 0
+  console.log(`myInt - myNumString = ${myInt - myNumString}`);
+
+  //myString - myNumString = NaN
+  console.log(`myString - myNumString = ${myString - myNumString}`);
+
+  //myInt == myNumString = true
+  console.log(`myInt == myNumString is ${myInt == myNumString}`);
+
+  //myInt === myNumString = false
+  console.log(`myInt === myNumString is ${myInt === myNumString}`);
 })
