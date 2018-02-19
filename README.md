@@ -36,12 +36,12 @@ This repository includes my code for the NHA JS.01 class.
 * indentation is important
 * Comments are done differently in every language!
 
-## Week 2 notes
-
 ### Challenge 4: Reading documentation
 
 * Example code is helpful to get some ideas, and to play with the code to see what it does.
 * Reference documentation is useful for learning everything that a function or feature can do.
+
+## Week 2 notes
 
 ### Challenge 5: Fonts, colors and other fancy stuff
 
