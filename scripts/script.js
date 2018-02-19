@@ -16,3 +16,14 @@ $(".hide").click( () => {
 $(".show").click( () => {
   $(".img").show();
 });
+
+//Challenge 9
+let myInt = 7;
+let myString = "the number 7";
+let myNumString = "7";
+
+$(".compute").click( () => {
+  //myInt + myInt = 14
+  console.log(`myInt + myInt = ${myInt + myInt}`);
+  //
+})
